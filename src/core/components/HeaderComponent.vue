@@ -1,6 +1,6 @@
 <template>
   <header class="header">
-    <Logo class="logo"></Logo>
+    <Logo class="logo" @click="$router.push({ name: 'splash' })"></Logo>
   </header>
 </template>
 <script setup lang="ts">
